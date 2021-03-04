@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="placar">
+        <div id="X" class="badge">X</div>
+        <div id="O" class="badge">O</div>
+        <span id="X_point">0</span>:<span id="O_point">0</span>
+    </div><!--placar-->
+
+    <div class="board" id="board">
+        <div class="cell" data-cell></div>
+        <div class="cell" data-cell></div>
+        <div class="cell" data-cell></div>
+        <div class="cell" data-cell></div>
+        <div class="cell" data-cell></div>
+        <div class="cell" data-cell></div>
+        <div class="cell" data-cell></div>
+        <div class="cell" data-cell></div>
+        <div class="cell" data-cell></div>
+    </div><!--board-->
+    <div class="winning-message" id="winning-message">
+        <div data-text-winnig></div>
+        <button id="restart">Restart</button>
+    </div><!--winning-messege-->
+<script src="app.js"></script>
+<script src="jquery.js"></script>
+</body>
+</html>
